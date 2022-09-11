@@ -1,0 +1,102 @@
+<!DOCTYPE HTML> <html>
+ <head>
+  <title>Pacen Situs</title>
+   </head>
+
+    <body>
+
+     <center>
+       <h1>Halo Selamat datang Di Pacen site</h1> 
+     </center>
+<!-- setelah judul -->
+
+<p>Hai Terima Kasih Sudah mampir disini,saya sedang belajar html, mohon maaf bila ada kekurangan, ebuset.</p> 
+       
+
+       <h3>Contoh bahasa pemrograman ada beberapa jenis, yaitu:</h3>
+    <ul>
+        <li>html & css</li>
+        <li>java</li>
+        <li>java script</li>
+        <li>c++</li>
+    </ul>  
+    <p>Dan disini saya baru belajar html</p> 
+    <a href="survey.html"> <button>Klik Untuk Mengisi Survey :3</button></a>
+    
+    <br>
+    <br>
+    <hr>
+    <footer>
+      <p>Klik beberapa sosial media milik pacen dibawah ini untuk mengunjunginya:</p>
+    <br>
+    
+    <a href="https://www.tiktok.com/@axley1pace?_t=8VPhx2pznnO&_r=1"><img src="image/tiktok.png" width="50px"></a> 
+   <a href="https://www.facebook.com/zeinbangjenzeropitu"><img src="image/pesbuk.png" width="50px"></a>
+   <a href="https://youtube.com/channel/UCxC_Fdz8mj0aOvMpYJJTpNQ"><img src="image/yutub.png" width="60px"></a>
+    </footer>
+     
+
+     <br>
+
+     <input type="text" name=""><button>Search</button>
+
+     <!--Batas atas membuat jam digital-->
+<style>
+ h1,h2,p,a{
+  font-family: sans-serif;
+  font-weight: normal;
+ }
+ 
+ .jam-digital-malasngoding {
+  overflow: hidden;
+  width: 330px;
+  margin: 20px auto;
+  border: 5px solid #efefef;
+ }
+ .kotak{
+  float: left;
+  width: 110px;
+  height: 100px;
+  background-color: #189fff;
+ }
+ .jam-digital-malasngoding p {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+ }
+ 
+ 
+</style>
+ 
+
+ 
+<div class="jam-digital-malasngoding">
+ <div class="kotak">
+  <p id="jam"></p>
+ </div>
+ <div class="kotak">
+  <p id="menit"></p>
+ </div>
+ <div class="kotak">
+  <p id="detik"></p>
+ </div>
+</div>
+ 
+
+<script>
+ window.setTimeout("waktu()", 1000);
+ 
+ function waktu() {
+  var waktu = new Date();
+  setTimeout("waktu()", 1000);
+  document.getElementById("jam").innerHTML = waktu.getHours();
+  document.getElementById("menit").innerHTML = waktu.getMinutes();
+  document.getElementById("detik").innerHTML = waktu.getSeconds();
+ }
+</script>
+<!--Batas bawah Membuat JAM Digital-->
+
+     
+</body> 
+</html80
